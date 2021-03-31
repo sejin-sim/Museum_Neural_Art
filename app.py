@@ -38,10 +38,13 @@ def upload_file():
       # return render_template('success.html', content_file= 'image/upload/'+a+'content.jpg', t_0= 'image/upload/'+a+'target_0.png',
       #                        t_1= 'image/upload/'+a+'target_1.png', t_2= 'image/upload/'+a+'target_2.png', 
       #                        t_3= 'image/upload/'+a+'target_3.png', t_4= 'image/upload/'+a+'target_4.png')
-    return render_template('success.html',
+        
+      return render_template('success.html',
                               content_file= 'image/upload/sample/content.jpg', t_0= 'image/upload/sample/target_0.png',
                               t_1= 'image/upload/sample/target_1.png', t_2= 'image/upload/sample/target_2.png', 
                               t_3= 'image/upload/sample/target_3.png', t_4= 'image/upload/sample/target_4.png')
+
+
 							
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=int(sys.argv[1]), debug = True)

@@ -6,6 +6,27 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
         <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
 		<noscript><link rel="stylesheet" href="{{ url_for('static', filename='css/noscript.css') }}"></noscript>
+        
+    <style>
+        #loading {
+         width: 100%;   
+         height: 100%;   
+         top: 0px;
+         left: 0px;
+         position: fixed;   
+         display: block;   
+         opacity: 0.7;   
+         background-color: #fff;   
+         z-index: 99;   
+         text-align: center; }  
+
+        #loading-image {   
+         position: absolute;   
+         top: 50%;   
+         left: 50%;  
+         z-index: 100; } 
+    </style>
+        
 	</head>
 	<body class="landing is-preload">
         <form action="/success" method="post">
@@ -23,11 +44,11 @@
 								<input id="input-file" type="file" name="file" required>
 								<!--<li><a href="#" class="button primary">Activate</a></li>-->
 								&nbsp;
-								<input type="submit" value="submit"></form>
+								<input type="submit" value="submit" onclick="$('#loading').show();" ></form>
 							</ul>
 						</div>
 					</section>
-                 
+        <div id="loading" style="display:none;"><img src={{ url_for('static', filename='image/loading_bar.gif') }} alt="" />Loading!</div>
 		<!-- Scripts -->
 		<script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
         <script src="{{ url_for('static', filename='js/jquery.scrollex.min.js') }}"></script>
@@ -36,6 +57,6 @@
         <script src="{{ url_for('static', filename='js/breakpoints.min.js') }}"></script>
         <script src="{{ url_for('static', filename='js/util.js') }}"></script>
         <script src="{{ url_for('static', filename='js/main.js') }}"></script>
-    
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 	</body>
 </html>
