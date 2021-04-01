@@ -18,8 +18,9 @@
       opacity: 0.7;   
       background-color: #fff;   
       z-index: 99;   
+      color: black;
       text-align: center;
-      padding: 350px 10px;}  
+      padding: 300px 10px;}  
       
       #loading-image {   
       position: absolute;   
@@ -30,13 +31,14 @@
         
 	</head>
 	<body class="landing is-preload">
-        <form action="/success" method="post" enctype = "multipart/form-data">
+        
 		<!-- Page Wrapper -->
 			<div id="page-wrapper">
 
 				<!-- Banner -->
 					<section id="banner">
 						<div class="inner">
+                            <form action="/success" method="post" enctype = "multipart/form-data">
 							<h2>SSU Photo GALLERY</h2>
 							<p>Welcome to SSU Gallery</p>
 							<br>
@@ -50,6 +52,8 @@
 						</div>
 					</section>
         <div id="loading" style="display:none;">
+            Please Wait, Loading…
+            <br>
             <img src={{ url_for('static', filename='image/loading_horse.gif') }} alt="" />
             <br>
             <img src={{ url_for('static', filename='image/loading_wave.gif') }} alt="" /></div>
