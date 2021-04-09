@@ -6,6 +6,13 @@ Flask Web service for Style Transfer
 - VGG19
 - Neural Style Transfer
 
+## rerequisites
+- PyTorch
+- Matplotlib
+- Pandas
+- Numpy
+- Flask
+
 ## Setting Virtualenv
 You can receive a single-use web server through colab for GPU usage. There is a full description of how to use it.   
 Link : [Web_run](https://colab.research.google.com/github/sejin-sim/Museum_Neural_Art/blob/master/Web_run_GPU.ipynb)
