@@ -24,4 +24,4 @@ Link : [Web_run](https://colab.research.google.com/github/sejin-sim/Museum_Neura
 ## Output Page
 ![image](https://user-images.githubusercontent.com/67107675/114131775-2ef8a000-993e-11eb-87a8-359b46ae823b.png)
 
-- Style transfer python code : https://medium.com/udacity-pytorch-challengers/style-transfer-using-deep-nural-network-and-pytorch-3fae1c2dd73e
+- Style transfer code : https://medium.com/udacity-pytorch-challengers/style-transfer-using-deep-nural-network-and-pytorch-3fae1c2dd73e
