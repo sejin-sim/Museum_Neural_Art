@@ -6,7 +6,7 @@ Flask Web service for Style Transfer
 - VGG19
 - Neural Style Transfer
 
-## rerequisites
+## Prerequisites
 - PyTorch
 - Matplotlib
 - Pandas
