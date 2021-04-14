@@ -15,7 +15,8 @@ Flask Web service for Style Transfer
 
 ## Setting Virtualenv
 You can receive a single-use web server through colab for GPU usage. There is a full description of how to use it.   
-Link : [Web_run](https://colab.research.google.com/github/sejin-sim/Museum_Neural_Art/blob/master/Web_run_GPU.ipynb)
+(Colab Notebook settings must be GPU)    
+- Link : [Web_run](https://colab.research.google.com/github/sejin-sim/Museum_Neural_Art/blob/master/Web_run_GPU.ipynb)
 
 ## Main & Input Page
 ![image](https://user-images.githubusercontent.com/67107675/114131544-c27da100-993d-11eb-842d-6e74d23413a8.png)
